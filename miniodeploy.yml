@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: minio-deployment-dr
-  namespace: deploy-dr
+  namespace: spinnaker-meet
 spec:
   strategy:
     type: Recreate
