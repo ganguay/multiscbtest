@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: minio-service-dr
-  namespace: deploy-dr
+  namespace: spinnaker-meet
 spec:
   ports:
     - port: 9000
